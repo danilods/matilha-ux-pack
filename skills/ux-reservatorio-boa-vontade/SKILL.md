@@ -1,6 +1,6 @@
 ---
 name: ux-reservatorio-boa-vontade
-description: Use when designing any critical interaction — Krug's trust reservoir economy: what fills it, what drains it, accessibility as a refill.
+description: "Use when designing any critical interaction — Krug's trust reservoir economy: what fills it, what drains it, accessibility as a refill."
 category: ux
 version: "1.0.0"
 requires: []
