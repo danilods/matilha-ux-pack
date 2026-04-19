@@ -1,0 +1,25 @@
+{
+  "name": "matilha-ux-pack",
+  "version": "0.1.0",
+  "description": "Matilha companion pack — 22 UX and cognitive skills synthesized from Weinschenk, Krug, and neuroscience research. You lead. Agents hunt.",
+  "author": {
+    "name": "Danilo de Sousa"
+  },
+  "homepage": "https://github.com/danilods/matilha-ux-pack",
+  "repository": "https://github.com/danilods/matilha-ux-pack",
+  "license": "MIT",
+  "keywords": [
+    "matilha-pack",
+    "ux",
+    "cognitive",
+    "weinschenk",
+    "krug",
+    "neuroscience",
+    "design",
+    "cross-tool",
+    "claude-code",
+    "cursor",
+    "codex",
+    "gemini"
+  ]
+}
