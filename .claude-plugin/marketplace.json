@@ -1,10 +1,23 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
   "name": "matilha-ux-pack",
-  "displayName": "Matilha UX Pack",
-  "description": "22 UX and cognitive skills for Matilha — Weinschenk, Krug, neuroscience. Companion pack: requires matilha-skills for full integration.",
-  "author": "Danilo de Sousa",
-  "category": "workflow",
-  "version": "0.1.0",
-  "license": "MIT",
-  "repository": "https://github.com/danilods/matilha-ux-pack"
+  "owner": {
+    "name": "Danilo de Sousa",
+    "email": "danilod2.sousa@gmail.com",
+    "url": "https://github.com/danilods"
+  },
+  "metadata": {
+    "description": "Matilha companion pack — 22 UX + cognitive skills (Weinschenk + Krug + neuroscience).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "matilha-ux-pack",
+      "source": "./",
+      "description": "22 UX + cognitive skills auto-activated when user intent touches visual design, user-experience decisions, form flows, error presentation, or cognitive-load concerns.",
+      "version": "0.1.0",
+      "category": "ux",
+      "tags": ["matilha-pack", "ux", "cognitive", "weinschenk", "krug"]
+    }
+  ]
 }
