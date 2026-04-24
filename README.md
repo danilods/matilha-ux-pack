@@ -3,6 +3,8 @@
 > **You lead. Agents hunt.**
 > Matilha companion pack — 22 UX and cognitive skills, derived from Weinschenk, Krug, and neuroscience research.
 
+> 🏠 **This is a companion pack.** The official matilha entry point is [**danilods/matilha-skills**](https://github.com/danilods/matilha-skills) — start there for the full install guide + ecosystem overview. Install this pack only after the core is set up (via `/matilha-install` in Claude Code, or the explicit commands below).
+
 ## What this is
 
 `matilha-ux-pack` extends [Matilha](https://github.com/danilods/matilha-skills) with UX and cognitive-psychology skills. Each skill fires automatically when user intent matches — designing a form triggers `cog-cognitive-load`, making a tonal decision triggers `ux-emotion-in-ui`, auditing trust triggers `ux-reservatorio-boa-vontade`.
