@@ -8,14 +8,14 @@
   },
   "metadata": {
     "description": "Matilha companion pack — 22 UX + cognitive skills (Weinschenk + Krug + neuroscience).",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "matilha-ux-pack",
       "source": "./",
       "description": "22 UX + cognitive skills auto-activated when user intent touches visual design, user-experience decisions, form flows, error presentation, or cognitive-load concerns.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "ux",
       "tags": ["matilha-pack", "ux", "cognitive", "weinschenk", "krug"]
     }
