@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0] — 2026-04-26 — Wave 5h: deterministic trigger skill
+
+### Added
+
+- **`matilha-ux-trigger` skill** — independent activation surface for UX/UI domain. Keyword-rich description (UI, UX, design system, component, layout, typography, visual hierarchy, cognitive load, wireframe, Figma, accessibility, responsive, mobile design, onboarding, navigation, social proof, etc.) ensures pack skills enter the conversation whenever the domain appears in user prompts.
+- Complements `matilha-skills`'s routing table (`skills/matilha-compose/routing-table.md`); together they form Wave 5h's Maximum Deterministic Activation surface.
+
+### Notes
+
+- Fully additive: existing 22 skills untouched. Pack continues to work standalone or with `matilha-skills` (Matilha core).
+- Trigger is a routing surface, not a craft skill — emits a compact domain acknowledgment and hands off to the most relevant pack skill via the Skill tool.
+- No behavior change when pack is uninstalled: trigger emits a `/matilha-install` nudge and yields to default flow.
+
 ## [0.1.0] — 2026-04-19 — Wave 5a: First shipped Matilha companion pack
 
 ### Added
